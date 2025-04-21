@@ -23,7 +23,7 @@
    Crea un archivo `.env` en la raíz del proyecto con las siguientes variables:
 
    ```env
-   SV_PORT=
+   SV_PORT=3000
    PGHOST=
    PGDATABASE=
    PGUSER=
@@ -46,6 +46,14 @@
    ```bash
    npm run test
    ```
+
+## Documentación de la API
+
+Este proyecto incluye una documentación interactiva de la API proporcionada por Swagger. Puedes acceder a ella fácilmente para explorar todos los endpoints disponibles y probarlos directamente desde el navegador.
+
+### Acceso a Swagger UI
+
+Una vez que el proyecto esté corriendo localmente, puedes acceder a la documentación de Swagger en la siguiente URL: http://localhost:3000/api/v1/
 
 
 ## Pruebas

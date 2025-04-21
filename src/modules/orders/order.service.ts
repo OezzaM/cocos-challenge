@@ -45,7 +45,6 @@ export class OrderService {
       status,
     );
 
-    console.log(orderBuild);
     const order = this.orderRepository.create(orderBuild);
 
     return this.orderRepository.save(order);

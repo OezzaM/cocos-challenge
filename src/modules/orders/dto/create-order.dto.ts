@@ -29,7 +29,7 @@ export class CreateOrderDto {
   @IsPositive()
   size: number;
 
-  @ApiProperty({ example: 50 })
+  @ApiProperty()
   @IsNumber()
   @IsPositive()
   @IsOptional()
